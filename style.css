@@ -1,0 +1,73 @@
+body{
+   background-image: linear-gradient(to right, #57B9DE, #7999f0, #D33AF4); 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#container{
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza os inputs horizontalmente */
+        justify-content: center; /* Centraliza verticalmente */
+        height: 300px;
+        padding: 50px;
+        background-image: linear-gradient(to left, #9055e2, #6256ea46, #9648DA);
+        border-radius: 10px;
+        border: 1px solid white;
+        text-align: center;
+    }
+    
+    input[type="text"], input[type="password"], input[type="Button"] {
+        width: 80%; /* Reduz um pouco para não encostar nas bordas */
+        max-width: 300px; /* Define um tamanho máximo para evitar esticamento */
+        padding: 0.9rem;   
+        border: 2px solid white;    
+        border-radius: 10px;     
+        background-color: rgba(245, 245, 245, 0.63); 
+        
+    }
+
+    
+input::placeholder{
+    color: #b107e980;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+input[type="button"] {
+    width: 110%; /* Mantém a largura alinhada com os inputs */
+    max-width: 400px;
+    padding: 20px 0; /* Ajusta o tamanho vertical */
+    border: none; /* Remove a borda padrão */
+    border-radius: 12px;
+    background: linear-gradient(to right, #7a1fbf, #9648DA); /* Gradiente no fundo */
+    color: white;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    font-weight: bold;
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma leve sombra */
+}
+
+input[type="button"]:hover {
+    background: linear-gradient(to right, #9648DA, #7a1fbf); /* Inverte o gradiente no hover */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3); /* Intensifica a sombra */
+}
+
+
+
+
+
+
